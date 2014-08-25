@@ -57,10 +57,10 @@
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="work-menu">
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/work/new"><i class="fa fa-file-o"></i> Create New Work</a>
+									<a role="menuitem" tabindex="-1" href="#create_new_work"><i class="fa fa-file-o"></i> Create New Work</a>
 								</li>
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/work"><i class="fa fa-list"></i> List Works</a>
+									<a role="menuitem" tabindex="-1" href="#list_work"><i class="fa fa-list"></i> List Works</a>
 								</li>
 							</ul>
 						</li>
@@ -74,17 +74,17 @@
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="issue-menu">
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/issue/new"><i class="fa fa-file-o"></i> Create New Issue</a>
+									<a role="menuitem" tabindex="-1" href="#create_new_issue"><i class="fa fa-file-o"></i> Create New Issue</a>
 								</li>
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/issue"><i class="fa fa-list"></i> List Issues</a>
+									<a role="menuitem" tabindex="-1" href="#list_issue"><i class="fa fa-list"></i> List Issues</a>
 								</li>
 							</ul>
 						</li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<form class="navbar-form navbar-left" role="search" action="/search">
+							<form class="navbar-form navbar-left" role="search">
 								<div class="form-group">
 									<input class="form-control" placeholder="Search Work or Issue" type="text">
 								</div>
@@ -92,17 +92,45 @@
 							</form>
 						</li>
 						<li class="dropdown">
+							<a id="notification-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-bell"></span>
+							</a>
+							<div class="dropdown-menu" role="menu" aria-labelledby="notification-menu">
+								Notifications
+							</div>
+						</li>
+						<li class="dropdown">
+							<a id="settings-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-cog"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="settings-menu">
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#setting_1">Setting One</a>
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#setting_2">Setting Two</a>
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#setting_3">Setting Three</a>
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#setting_4">Setting Four</a>
+								</li>
+								<li role="presentation">
+									<a role="menuitem" tabindex="-1" href="#setting_5">Setting Five</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
 							<a id="user-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
 								<span class="glyphicon glyphicon-user"></span>
-								<b>rudilee</b>
-								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu" aria-labelledby="user-menu">
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/user/password"><i class="fa fa-key"></i> Change Password</a>
+									<a role="menuitem" tabindex="-1" href="#change_password"><i class="fa fa-key"></i> Change Password</a>
 								</li>
 								<li role="presentation">
-									<a role="menuitem" tabindex="-1" href="/user/logout"><i class="fa fa-sign-out"></i> Logout</a>
+									<a role="menuitem" tabindex="-1" href="#logout"><i class="fa fa-sign-out"></i> Logout (<b>rudilee</b>)</a>
 								</li>
 							</ul>
 						</li>

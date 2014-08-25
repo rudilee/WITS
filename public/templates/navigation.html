@@ -1,0 +1,72 @@
+<ul class="nav navbar-nav">
+    <li class="dropdown">
+        <a id="work-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Works
+            <span id="unfinished" class="badge alert-danger" data-toggle="tooltip" data-placement="bottom" data-original-title="Unfinished">0</span>
+            <span id="finished" class="badge alert-success" data-toggle="tooltip" data-placement="bottom" data-original-title="Finished">0</span>
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="work-menu">
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#create_new_work"><i class="fa fa-file-o"></i> Create New Work</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#list_work"><i class="fa fa-list"></i> List Works</a>
+            </li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a id="issue-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            Issues
+            <span id="open" class="badge alert-danger" data-toggle="tooltip" data-placement="bottom" data-original-title="Open">0</span>
+            <span id="in_progress" class="badge alert-info" data-toggle="tooltip" data-placement="bottom" data-original-title="In-Progress">0</span>
+            <span id="resolved" class="badge alert-success" data-toggle="tooltip" data-placement="bottom" data-original-title="Resolved">0</span>
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="issue-menu">
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#create_new_issue"><i class="fa fa-file-o"></i> Create New Issue</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#list_issue"><i class="fa fa-list"></i> List Issues</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input class="form-control" placeholder="Search Work or Issue" type="text">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+    </li>
+    <li class="dropdown">
+        <a id="notification-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-bell"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="notification-menu">
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a id="settings-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-cog"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="settings-menu">
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a id="user-menu" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-user"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="user-menu">
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#change_password"><i class="fa fa-key"></i> Change Password</a>
+            </li>
+            <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#logout"><i class="fa fa-sign-out"></i> Logout (<b>rudilee</b>)</a>
+            </li>
+        </ul>
+    </li>
+</ul>

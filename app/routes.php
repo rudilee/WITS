@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/test', function()
 {
 	return View::make('home', array(
 		'unfinished' => 13,
@@ -20,4 +20,8 @@ Route::get('/', function()
 		'in_progress' => 8,
 		'resolved' => 1024
 	));
+});
+
+Route::get('/login', function() {
+	return View::make('login');
 });
